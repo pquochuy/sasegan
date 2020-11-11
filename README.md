@@ -10,7 +10,7 @@ H. Phan, Hu. L. Nguyen, O. Y. Chén, P. Koch, N. Q. K. Duong, I. McLoughlin, and
 SASEGAN integrates non-local based self-attention to convolutional layers of SEGAN [Pascual _et al._](https://arxiv.org/abs/1703.09452) to improve sequential modelling. 
 
 [//]: #![SASESEGAN](assets/sasegan.png)
-<img src="assets/sasegan.png" alt="sasegan.png" width="600"/>
+<img src="assets/sasegan.png" alt="sasegan.png" width="800"/>
 
 
 **The project is developed with TensorFlow**. 
