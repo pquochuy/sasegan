@@ -5,7 +5,7 @@
 
 This is the repository of the sel-attention GAN for speech enhancement (SASEGAN) in our original paper:
 
-H. Phan, Hu. L. Nguyen, O. Y. Chén, P. Koch, N. Q. K. Duong, I. McLoughlin, and A. Mertins, "[_Self-Attention Generative Adversarial Network for Speech Enhancement_](https://arxiv.org/pdf/2010.09132)," arXiv preprint arXiv:2010.09132, 2020.
+H. Phan, H. L. Nguyen, O. Y. Chén, P. Koch, N. Q. K. Duong, I. McLoughlin, and A. Mertins, "[_Self-Attention Generative Adversarial Network for Speech Enhancement_](https://arxiv.org/pdf/2010.09132)," arXiv preprint arXiv:2010.09132, 2020.
 
 SASEGAN integrates non-local based self-attention to convolutional layers of SEGAN [Pascual _et al._](https://arxiv.org/abs/1703.09452) to improve sequential modelling. 
 
@@ -45,6 +45,10 @@ Once you have the TFRecords file created in `data/segan.tfrecords` you can simpl
 ```
 The script consists of commands for training and testing with 5 different checkpoints of the trained model on the test audio files. You may want to set the convolutional layer index (the `--att_layer_ind` parameter)where you want to have self-attention component integrated.
 
+The trained models can be downloaded [HERE](https://zenodo.org/record/4288589)
+
+### Results
+
 Enhancement results compared to the SEGAN baseline:
 
 [//]: #![results](assets/pesq_stoi.png)
@@ -68,6 +72,7 @@ Visualization of attention weights (the convolutional layer index 2) at two diff
 ```
 
 1. [Speech enhancement GAN](https://github.com/santi-pdp/segan)
+2. [Improving GANs for speech enhancement](https://github.com/pquochuy/idsegan)
 2. [Self-attention GAN](https://github.com/brain-research/self-attention-gan)
 
 ### Contact
