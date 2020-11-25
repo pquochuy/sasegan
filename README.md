@@ -13,7 +13,7 @@ SASEGAN integrates non-local based self-attention to convolutional layers of SEG
 <img src="assets/sasegan.png" alt="sasegan.png" width="800"/>
 
 
-**The project is developed with TensorFlow**. 
+**The project is developed with TensorFlow 1**. ([Go to Tensorflow 2 Version](https://github.com/usimarit/sasegan))
 ### Dependencies
 
 * tensorflow_gpu 1.9
