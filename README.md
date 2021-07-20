@@ -5,7 +5,7 @@
 
 This is the repository of the sel-attention GAN for speech enhancement (SASEGAN) in our original paper:
 
-H. Phan, H. L. Nguyen, O. Y. Chén, P. Koch, N. Q. K. Duong, I. McLoughlin, and A. Mertins, "[_Self-Attention Generative Adversarial Network for Speech Enhancement_](https://arxiv.org/pdf/2010.09132)," arXiv preprint arXiv:2010.09132, 2020.
+H. Phan, H. L. Nguyen, O. Y. Chén, P. Koch, N. Q. K. Duong, I. McLoughlin, and A. Mertins, "[_Self-Attention Generative Adversarial Network for Speech Enhancement_](https://arxiv.org/pdf/2010.09132)," Proc. ICASSP, 2021.
 
 SASEGAN integrates non-local based self-attention to convolutional layers of SEGAN [Pascual _et al._](https://arxiv.org/abs/1703.09452) to improve sequential modelling. 
 
@@ -65,9 +65,9 @@ Visualization of attention weights (the convolutional layer index 2) at two diff
 ```
 @article{phan2020sasegan,
   title={Self-Attention Generative Adversarial Network for Speech Enhancement},
-  author={H. Phan, Hu. L. Nguyen, O. Y. Chén, P. Koch, N. Q. K. Duong, I. McLoughlin, and A. Mertins},
-  journal={arXiv preprint arXiv:2010.09132},
-  year={2020}
+  author={H. Phan, H. L. Nguyen, O. Y. Chén, P. Koch, N. Q. K. Duong, I. McLoughlin, and A. Mertins},
+  journal={ICASSP},
+  year={2021}
 }
 ```
 
